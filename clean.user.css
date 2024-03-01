@@ -1,0 +1,31 @@
+/* ==UserStyle==
+@name        youtube-cleaner
+@description This is your new file, start writing code
+@match       https://www.youtube.com/*
+domain       https://www.youtube.com/
+==/UserStyle== */
+
+
+div.style-scope.ytd-rich-shelf-renderer {
+  display: none;
+}
+
+/* div.style-scope.ytd-item-section-renderer.style-scope.ytd-item-section-renderer {
+  display: none;
+} */
+
+ytd-live-chat-frame.style-scope.ytd-watch-flexy {
+  display: none;
+}
+
+div.html5-endscreen.ytp-player-content.videowall-endscreen.ytp-show-tiles {
+  display: none;
+}
+
+ytd-item-section-renderer.style-scope.ytd-watch-next-secondary-results-renderer {
+  display: none;
+}
+
+ytd-item-section-renderer.style-scope.ytd-comments {
+  display: none;
+}
