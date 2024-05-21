@@ -4,15 +4,17 @@
 @match       https://www.youtube.com/*
 domain       https://www.youtube.com/
 ==/UserStyle== */
-
-
 div.style-scope.ytd-rich-shelf-renderer {
   display: none;
 }
 
-/* div.style-scope.ytd-item-section-renderer.style-scope.ytd-item-section-renderer {
-  display: none;
-} */
+#bottom-grid > ytd-rich-grid-renderer{
+    display: none;
+}
+
+#bottom-grid {
+    display: none;
+}
 
 ytd-live-chat-frame.style-scope.ytd-watch-flexy {
   display: none;
@@ -27,5 +29,13 @@ ytd-item-section-renderer.style-scope.ytd-watch-next-secondary-results-renderer 
 }
 
 ytd-item-section-renderer.style-scope.ytd-comments {
+  display: none;
+}
+
+style-scope.ytd-rich-grid-renderer {
+  display: none;
+}
+
+#contents {
   display: none;
 }
