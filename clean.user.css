@@ -8,6 +8,11 @@ div.style-scope.ytd-rich-shelf-renderer {
   display: none;
 }
 
+div.ytp-fullscreen-grid-stills-container {
+  display: none;
+}
+
+
 #bottom-grid > ytd-rich-grid-renderer{
     display: none;
 }
@@ -39,3 +44,7 @@ style-scope.ytd-rich-grid-renderer {
 #secondary{
     display:none;
 }
+
+/* #contents {
+  display: none;
+} */
